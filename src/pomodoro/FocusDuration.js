@@ -52,7 +52,7 @@ const FocusDuration = ({ currentFocus, setCurrentFocus, setActualFocus }) => {
           id="incrementFocus"
           onClick={handleClick}
           type="button"
-          className="btn btn-success"
+          className="btn btn-primary"
           data-testid="increase-focus"
         >
           <span id="incrementFocus" className="oi oi-plus" />
