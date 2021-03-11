@@ -41,7 +41,7 @@ const BreakDuration = ({ currentBreak, setCurrentBreak, setActualBreak }) => {
           id="incrementBreak"
           onClick={handleClick}
           type="button"
-          className="btn btn-secondary"
+          className="btn btn-success"
           data-testid="increase-break"
         >
           <span id="incrementBreak" className="oi oi-plus" />

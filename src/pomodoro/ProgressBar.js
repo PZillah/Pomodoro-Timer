@@ -20,7 +20,7 @@ const ProgressBar = ({
     <div>
       <div className="progress" style={{ height: "20px" }}>
         <div
-          className="progress-bar"
+          className="progress-bar progress-bar-striped bg-info progress-bar-animated"
           role="progressbar"
           aria-valuemin="0"
           aria-valuemax="100"

@@ -29,7 +29,7 @@ const TimerControls = ({
         <button
           id="playPause"
           type="button"
-          className="btn btn-primary"
+          className="btn btn-info"
           data-testid="play-pause"
           title="Start or pause timer"
           onClick={playPause}
@@ -48,7 +48,7 @@ const TimerControls = ({
           id="stopBtn"
           onClick={handleStopBtn}
           type="button"
-          className="btn btn-secondary"
+          className="btn btn-danger"
           title="Stop the session"
         >
           <span id="stopBtn" className="oi oi-media-stop" />
